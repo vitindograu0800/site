@@ -1,3 +1,14 @@
-.body{
+*{
+    margin: 0 0px;
+}
+
+.cabecalho{
     background-color: rgb(221, 23, 23);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
 }
