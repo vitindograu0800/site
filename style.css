@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400;800&family=Roboto:wght@300;400;900&display=swap');
+
 *{
     margin: 0 0px;
 }
@@ -7,8 +9,34 @@
     color: aliceblue;
     display: flex;
     justify-content: space-around;
+    position: fixed;
 }
 
-.cabecalho-lista-item{
-    display: inline-block;
+.morte{
+    font-family: 'Geologica', sans-serif;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.biografia{
+    font-family: 'Geologica', sans-serif;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.biografia-toda{
+    font-family: 'Geologica', sans-serif;
+    background-color: black;
+}
+
+.titulo-bio{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.text-bio{
+    color: white;
 }
